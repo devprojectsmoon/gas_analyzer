@@ -1,5 +1,4 @@
 import { fetchTransactions } from './api'
-import { getHours } from 'date-fns'
 import { GasAnalysisResult } from './types'
 
 export async function analyzeGasUsage(address: string): Promise<GasAnalysisResult> {
